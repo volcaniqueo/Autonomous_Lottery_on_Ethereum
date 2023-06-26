@@ -1,0 +1,44 @@
+Last login: Thu Jun  1 05:17:30 on ttys001
+volkan@Volkan-MacBook-Pro ~ % ganache -a 5
+ganache v7.8.0 (@ganache/cli: 0.9.0, @ganache/core: 0.9.0)
+Starting RPC server
+
+Available Accounts
+==================
+(0) 0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 (1000 ETH)
+(1) 0xB0B5f43103B57322c105f45fef78e8709BD356D2 (1000 ETH)
+(2) 0x48479BAd4348D506ff03b7111aD449D50E3E28b3 (1000 ETH)
+(3) 0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f (1000 ETH)
+(4) 0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 (1000 ETH)
+
+Private Keys
+==================
+(0) 0x077e7eaa41bfe70e0981178f868cfe62f5fdfcf784589bf593e6133d536cb11f
+(1) 0x33f823cd5c58756da38ee1190996326fd26fe65091c0bd49c18f49aad8c6c174
+(2) 0xf65cec1375f512329a79bce97e3789e6b20017bce3c8407a25b606d42c4408b1
+(3) 0x897d4fb32e362ff4ce37575210fb202893e2480e9c5f77abd8116f31014116ac
+(4) 0xccda59e7b4e5df6cbce6ff46b4f2dafad4904bd88735cc6f90cdb399756981e0
+
+HD Wallet
+==================
+Mnemonic:      join ship quit strike grit divorce fitness calm boat patrol idea indoor
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Default Gas Price
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain Id
+==================
+1337
+
+RPC Listening on 127.0.0.1:8545
+

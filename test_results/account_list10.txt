@@ -1,0 +1,54 @@
+Last login: Thu Jun  1 05:30:30 on ttys001
+volkan@Volkan-MacBook-Pro ~ % ganache -a 10
+ganache v7.8.0 (@ganache/cli: 0.9.0, @ganache/core: 0.9.0)
+Starting RPC server
+
+Available Accounts
+==================
+(0) 0xcfFf469aCD92c799042AEc8e360BAbA69AEe9031 (1000 ETH)
+(1) 0xC456ed8c9904C0FB7Ec7379e4D16E41298b84797 (1000 ETH)
+(2) 0xB3b01F11706a0FAa2243aD8191ff1658915043E1 (1000 ETH)
+(3) 0x20d5c45A8f682e19A2999F93a7D8d75B04ca57E0 (1000 ETH)
+(4) 0x921fF45f773c26D384D9b8627b6b9DE3320b413b (1000 ETH)
+(5) 0x95D7442A42896A1302212C08019b33E2AE7fA5f5 (1000 ETH)
+(6) 0x400eFdCD54ac87D70d2C5c89d895288aeAd7255E (1000 ETH)
+(7) 0x172227e14B39f2692616E406DcBFBc4B2AD60321 (1000 ETH)
+(8) 0x6BF8fc96e0996860Ce6ccaCe5e9Cb8CAbd6705C4 (1000 ETH)
+(9) 0xFE57D64ae4A224537BDB651989df32257E6B842B (1000 ETH)
+
+Private Keys
+==================
+(0) 0x5e8fe7da603ea7c760f7d9d32b02a35fe711855811c9abbd66ef4cab9d940cc8
+(1) 0x6c84da67261d9a5c43775b2ac3d9ef59abb0e1bcc1456aeb9b40fa3e3c660b1e
+(2) 0x4ed6051b73dbad2068d59049f118aa2f55d0789cd501bd189954c7eac4992643
+(3) 0x077671b915179b380c640a0d33a9bb45943621c5f41c152decb37a1999669d54
+(4) 0x077158b39870f0df18c52010088bb7b2b6fd62ce23a4c295a9a1e5fc540e12a9
+(5) 0x4ca7497ab4fec5d4b225a96d1ddae838bd2a64e330fb16a5f9d80ca9e0073e0c
+(6) 0xfabf686465a897520b665bf3245923d08909587e5b3683aff2c9bbf17b969559
+(7) 0x310d073c0abbdc085d9b2cb1da36e69771a462d10c66ba9d468ac900f98eb971
+(8) 0x163ef110c9522e1f164f4ee44f89ad6aefc565e52b39b40bd7da541572efa323
+(9) 0xa06ec428e4bb0ee9aa5a9f8cef84779fcf6c29ff0525b7d99ce85cb36609e6b1
+
+HD Wallet
+==================
+Mnemonic:      false patch later daring divide expand move scorpion worry foil arrow soft
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Default Gas Price
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain Id
+==================
+1337
+
+RPC Listening on 127.0.0.1:8545
+

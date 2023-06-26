@@ -1,0 +1,170 @@
+Last login: Thu Jun  1 05:29:52 on ttys000
+volkan@Volkan-MacBook-Pro Lottery % truffle migrate            
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      1685586602516
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Lottery'
+   -------------------
+   > transaction hash:    0x2b36d95fa1aa2af21ac82d6b5853b7f96caf14e846f5a04efef734201c1fab95
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x99b672D45605Ac333551D73715a7d6b4AaA39F4d
+   > block number:        1
+   > block timestamp:     1685586668
+   > account:             0xC9d8f763317E87920Dc7Af45251d1de17EE73B79
+   > balance:             999.99121712275
+   > gas used:            2602334 (0x27b55e)
+   > gas price:           3.375 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00878287725 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:       0.00878287725 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.00878287725 ETH
+
+
+volkan@Volkan-MacBook-Pro Lottery % truffle console            
+truffle(development)> truffle exec test.js
+Using network 'development'.
+
+Adress:  0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 Balance:  2000000000000000000
+Adress:  0xB0B5f43103B57322c105f45fef78e8709BD356D2 Balance:  2000000000000000000
+Adress:  0x48479BAd4348D506ff03b7111aD449D50E3E28b3 Balance:  2000000000000000000
+Adress:  0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f Balance:  2000000000000000000
+Adress:  0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 Balance:  2000000000000000000
+Result: lottery_no1: 1 lottery_no2: 0
+[
+  {
+    adress: '0xC9d8f763317E87920Dc7Af45251d1de17EE73B79',
+    random_number: '4009589249',
+    ticket_no: '1'
+  },
+  {
+    adress: '0xC9d8f763317E87920Dc7Af45251d1de17EE73B79',
+    random_number: '4167090441',
+    ticket_no: '2'
+  },
+  {
+    adress: '0xC9d8f763317E87920Dc7Af45251d1de17EE73B79',
+    random_number: '1227190145',
+    ticket_no: '3'
+  },
+  {
+    adress: '0xB0B5f43103B57322c105f45fef78e8709BD356D2',
+    random_number: '685584516',
+    ticket_no: '4'
+  },
+  {
+    adress: '0xB0B5f43103B57322c105f45fef78e8709BD356D2',
+    random_number: '954990707',
+    ticket_no: '5'
+  },
+  {
+    adress: '0xB0B5f43103B57322c105f45fef78e8709BD356D2',
+    random_number: '3682431797',
+    ticket_no: '6'
+  },
+  {
+    adress: '0x48479BAd4348D506ff03b7111aD449D50E3E28b3',
+    random_number: '1783718739',
+    ticket_no: '7'
+  },
+  {
+    adress: '0x48479BAd4348D506ff03b7111aD449D50E3E28b3',
+    random_number: '2315183204',
+    ticket_no: '8'
+  },
+  {
+    adress: '0x48479BAd4348D506ff03b7111aD449D50E3E28b3',
+    random_number: '4032840318',
+    ticket_no: '9'
+  },
+  {
+    adress: '0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f',
+    random_number: '3544205788',
+    ticket_no: '10'
+  },
+  {
+    adress: '0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f',
+    random_number: '2122664810',
+    ticket_no: '11'
+  },
+  {
+    adress: '0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f',
+    random_number: '117806022',
+    ticket_no: '12'
+  },
+  {
+    adress: '0xB90f14049e9014977AF5406D8495AB8f1A7f36b3',
+    random_number: '3752556190',
+    ticket_no: '13'
+  },
+  {
+    adress: '0xB90f14049e9014977AF5406D8495AB8f1A7f36b3',
+    random_number: '3491678567',
+    ticket_no: '14'
+  },
+  {
+    adress: '0xB90f14049e9014977AF5406D8495AB8f1A7f36b3',
+    random_number: '325213232',
+    ticket_no: '15'
+  }
+]
+Account:  0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 Lottery No:  1 Ticket No:  3 Status:  0
+Account:  0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 Lottery No:  1 Ticket No:  2 Status:  0
+Account:  0xB0B5f43103B57322c105f45fef78e8709BD356D2 Lottery No:  1 Ticket No:  6 Status:  0
+Account:  0xB0B5f43103B57322c105f45fef78e8709BD356D2 Lottery No:  1 Ticket No:  5 Status:  0
+Account:  0x48479BAd4348D506ff03b7111aD449D50E3E28b3 Lottery No:  1 Ticket No:  9 Status:  0
+Account:  0x48479BAd4348D506ff03b7111aD449D50E3E28b3 Lottery No:  1 Ticket No:  8 Status:  0
+Account:  0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f Lottery No:  1 Ticket No:  12 Status:  0
+Account:  0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f Lottery No:  1 Ticket No:  11 Status:  0
+Account:  0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 Lottery No:  1 Ticket No:  15 Status:  0
+Account:  0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 Lottery No:  1 Ticket No:  14 Status:  0
+Time increased successfully.
+Account: 0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 Lottery No: 1 Ticket No: 3 Status: 1
+Account: 0xB0B5f43103B57322c105f45fef78e8709BD356D2 Lottery No: 1 Ticket No: 6 Status: 1
+Account: 0x48479BAd4348D506ff03b7111aD449D50E3E28b3 Lottery No: 1 Ticket No: 9 Status: 1
+Account: 0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f Lottery No: 1 Ticket No: 12 Status: 1
+Account: 0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 Lottery No: 1 Ticket No: 15 Status: 1
+Time increased successfully.
+Total Lottery Money Collected: 66000000000000000
+Winner ticket number: 1 Prize: 8250000000000000
+Winner ticket number: 4 Prize: 4125000000000000
+Winner ticket number: 13 Prize: 4125000000000000
+1 th Winner: 1 Amount: 8250000000000000
+2 th Winner: 13 Amount: 4125000000000000
+3 th Winner: 4 Amount: 4125000000000000
+Before Balance of Address: 0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 1980000000000000000
+After Balance of Address: 0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 1988250000000000000
+Before Balance of Address: 0xB0B5f43103B57322c105f45fef78e8709BD356D2 1992000000000000000
+After Balance of Address: 0xB0B5f43103B57322c105f45fef78e8709BD356D2 1996125000000000000
+Before Balance of Address: 0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 1992000000000000000
+After Balance of Address: 0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 1996125000000000000
+Before Balance of Address: 0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 In the Contract: 1988250000000000000 In the Chain: 997986244577971067155
+After Balance of Address: 0xC9d8f763317E87920Dc7Af45251d1de17EE73B79 In the Contract: 988250000000000000 In the Chain: 998986159080851997602
+Before Balance of Address: 0xB0B5f43103B57322c105f45fef78e8709BD356D2 In the Contract: 1996125000000000000 In the Chain: 997997586363190533078
+After Balance of Address: 0xB0B5f43103B57322c105f45fef78e8709BD356D2 In the Contract: 996125000000000000 In the Chain: 998997500885354840359
+Before Balance of Address: 0x48479BAd4348D506ff03b7111aD449D50E3E28b3 In the Contract: 1982000000000000000 In the Chain: 997997577541170502677
+After Balance of Address: 0x48479BAd4348D506ff03b7111aD449D50E3E28b3 In the Contract: 982000000000000000 In the Chain: 998997492080213269279
+Before Balance of Address: 0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f In the Contract: 1980000000000000000 In the Chain: 997997611478988495721
+After Balance of Address: 0xc81117c9eC2b0EEF5f0F0Eca26e9505460A6A88f In the Contract: 980000000000000000 In the Chain: 998997526032804697676
+Before Balance of Address: 0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 In the Contract: 1996125000000000000 In the Chain: 997997540109594631576
+After Balance of Address: 0xB90f14049e9014977AF5406D8495AB8f1A7f36b3 In the Contract: 996125000000000000 In the Chain: 998997454676341792583
+truffle(development)> 
