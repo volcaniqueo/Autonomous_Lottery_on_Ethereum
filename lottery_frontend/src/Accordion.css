@@ -1,0 +1,35 @@
+.accordion {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-toggle {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion-toggle:hover {
+    background-color: #eaeaea;
+  }
+  
+  .accordion-toggle.open {
+    background-color: #d4d4d4;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .accordion-content.open {
+    max-height: 500px; /* Adjust the height as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  

@@ -1,0 +1,21 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,#ffffffcc, #413f3fcc);
+  }
+  
+  .home-title {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .home-description {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
